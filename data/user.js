@@ -7,7 +7,7 @@ const user = {
   phone: '+91 7404234155',
   location: 'Sonipat, India',
   linkedin: 'https://www.linkedin.com/in/parth-rohilla-4792b926',
-  github: 'https://github.com/parthrohilla',
+  github: 'https://github.com/parthrohilla2001',
   skills: {
     'Languages': ['PHP', 'JavaScript', 'Python'],
     'Backend': ['Node.js', 'REST APIs', 'API Integration'],
