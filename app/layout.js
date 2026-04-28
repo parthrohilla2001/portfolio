@@ -1,8 +1,8 @@
 import '../styles/globals.css'
 
 export const metadata = {
-  title: 'Premium Portfolio',
-  description: 'Personal portfolio built with Next.js and Tailwind CSS',
+  title: 'Parth Rohilla — Software Engineer',
+  description: 'Portfolio of Parth Rohilla — Software Engineer & Backend Developer specializing in Node.js, PHP, REST APIs, and scalable backend systems.',
   viewport: 'width=device-width, initial-scale=1'
 }
 
