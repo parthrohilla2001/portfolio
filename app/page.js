@@ -1,25 +1,17 @@
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import Skills from '../components/Skills'
-import Experience from '../components/Experience'
-import Projects from '../components/Projects'
-import Achievements from '../components/Achievements'
-import Education from '../components/Education'
-import Contact from '../components/Contact'
+import About from '../components/About'
+import Resume from '../components/Resume'
+import Portfolio from '../components/Portfolio'
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white via-slate-50 to-slate-100 text-slate-900">
+    <main style={{ background: '#080808', color: '#fff', minHeight: '100vh' }}>
       <Navbar />
-      <main className="max-w-6xl mx-auto px-6 py-16">
-        <Hero />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Achievements />
-        <Education />
-        <Contact />
-      </main>
-    </div>
+      <Hero />
+      <About />
+      <Resume />
+      <Portfolio />
+    </main>
   )
 }
