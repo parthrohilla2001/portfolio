@@ -215,7 +215,7 @@ export default function Portfolio() {
             PARTH<span style={{ color: 'var(--accent)' }}>.</span>
           </p>
           <p style={{ fontSize: '11px', color: 'rgba(255,255,255,0.3)', letterSpacing: '1px', marginTop: '4px' }}>
-            Software Engineer · Backend Developer
+            Software Engineer · Full Stack Developer
           </p>
         </div>
         <div style={{ display: 'flex', gap: '20px' }}>
