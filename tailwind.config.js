@@ -9,10 +9,20 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          50: '#f2fbff',
-          100: '#e6f7ff',
-          500: '#0ea5a6'
+          50: 'rgba(0,188,212,0.1)',
+          100: 'rgba(0,188,212,0.2)',
+          500: '#00bcd4',
+          600: '#00acc1'
+        },
+        dark: {
+          bg: '#080808',
+          card: '#111111',
+          card2: '#161616',
+          border: 'rgba(255,255,255,0.07)'
         }
+      },
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
       }
     }
   },

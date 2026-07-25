@@ -1,7 +1,7 @@
 const user = {
   name: 'Parth Rohilla',
-  title: 'Software Engineer | Backend Developer',
-  bio: 'Results-driven Software Engineer with 2+ years of experience in backend development, specializing in building scalable and high-performance web applications using Node.js and PHP. Strong expertise in REST API development, database design, and system optimization. Experienced in implementing caching using Redis and real-time systems using WebSocket. Passionate about solving complex problems and building efficient, reliable systems.',
+  title: 'Software Engineer |Full Stack Developer',
+  bio: 'Full Stack Developer with hands-on experience building scalable web applications using React.js/Next.js on the frontend and Node.js/Express on the backend. Skilled in designing RESTful APIs, implementing secure authentication (JWT, RBAC, OAuth), and working across PostgreSQL and MySQL with Prisma. Experienced with Redis, BullMQ, and WebSocket for caching, background processing, and real-time functionality. Proven ability to ship production-shaped systems, optimize performance, and deliver reliable software within Agile teams.',
   avatar: null,
   email: 'parthrohilla2000@gmail.com',
   phone: '+91 7404234155',
@@ -9,20 +9,29 @@ const user = {
   linkedin: 'https://www.linkedin.com/in/parth-rohilla-4792b926',
   github: 'https://github.com/parthrohilla2001',
   skills: {
-    'Languages': ['PHP', 'JavaScript', 'Python'],
-    'Backend': ['Node.js', 'REST APIs', 'API Integration'],
-    'Databases': ['MySQL', 'SQL', 'Database Design', 'Query Optimization'],
-    'Caching & Real-Time': ['Redis', 'WebSocket'],
-    'Web Technologies': ['HTML', 'CSS', 'AJAX', 'JSON'],
-    'Concepts': ['OOP', 'RBAC', 'Debugging', 'SDLC', 'Agile Development'],
-    'Other': ['Backend Architecture', 'Performance Optimization', 'Secure Authentication']
+    Languages: ['PHP', 'JavaScript', 'TypeScript', 'Python'],
+    Backend: ['Node.js', 'Express.js', 'REST APIs', 'API Integration', 'JWT', 'RBAC', 'Google OAuth', 'Zod'],
+    'Databases & ORM': ['MySQL', 'PostgreSQL', 'SQL', 'Prisma ORM', 'Database Design', 'Query Optimization'],
+    'Caching, Queues & Real-Time': ['Redis', 'BullMQ', 'WebSocket', 'Socket.IO'],
+    Frontend: ['React.js', 'Next.js 15', 'HTML5', 'CSS3', 'AJAX', 'JSON', 'Zustand', 'React Hook Form'],
+    'Cloud, Integrations & DevOps': ['OpenAI API', 'YouTube Data API', 'AWS S3', 'Docker', 'Nginx', 'Axios'],
+    Concepts: [
+      'OOP',
+      'MVC Architecture',
+      'Debugging',
+      'SDLC',
+      'Agile Development',
+      'Performance Optimization',
+      'Secure Authentication',
+      'Backend Architecture'
+    ]
   },
   experience: [
     {
       role: 'Software Engineer',
       company: 'Proeffico Solutions Pvt. Ltd.',
       location: 'Noida, India',
-      period: 'Jan 2025 – Present',
+      period: 'Jan 2025 - Present',
       highlights: [
         'Developed scalable backend systems and RESTful APIs for enterprise applications.',
         'Designed optimized database schemas and improved query performance for faster data retrieval.',
@@ -56,7 +65,7 @@ const user = {
       role: 'Full Stack PHP Developer',
       company: 'Tacty Solutions Pvt. Ltd.',
       location: 'Zirakpur, India',
-      period: 'Oct 2023 – Oct 2024',
+      period: 'Oct 2023 - Oct 2024',
       highlights: [
         'Developed and maintained web applications using PHP and CodeIgniter.',
         'Optimized backend code and MySQL queries to improve performance.',
@@ -91,27 +100,58 @@ const user = {
   ],
   projects: [
     {
+      title: 'FlowTube',
+      description:
+        'Production-shaped full-stack SaaS platform that automates AI-powered YouTube video uploads, metadata generation, scheduled publishing, authenticated channel linking, media storage, analytics, and retry-safe background processing.',
+      tech: [
+        'Next.js 15',
+        'TypeScript',
+        'Express',
+        'PostgreSQL',
+        'Prisma',
+        'Redis',
+        'BullMQ',
+        'OpenAI API',
+        'YouTube Data API',
+        'AWS S3',
+        'Docker',
+        'Nginx'
+      ],
+      link: '#'
+    },
+    {
       title: 'AI-Based HRMS System',
-      description: 'Backend system powering facial recognition-based attendance tracking with real-time processing, employee data management, and automated reporting.',
+      description:
+        'Backend system powering facial recognition-based attendance tracking with real-time processing, employee data management, and automated reporting.',
       tech: ['Node.js', 'Redis', 'WebSocket', 'MySQL'],
       link: '#'
     },
     {
       title: 'Factory Management System',
-      description: 'Enterprise backend for workforce and inventory management with optimized queries and role-based access control for secure operations.',
+      description:
+        'Enterprise backend for workforce and inventory management with optimized queries and role-based access control for secure operations.',
       tech: ['Node.js', 'REST API', 'MySQL', 'RBAC'],
       link: '#'
     },
     {
       title: 'Driving School Management System',
-      description: 'Full-featured platform for scheduling, student management, and payment processing with robust backend APIs.',
+      description:
+        'Full-featured platform for scheduling, student management, and payment processing with robust backend APIs.',
       tech: ['PHP', 'CodeIgniter', 'MySQL', 'REST API'],
       link: '#'
     },
     {
       title: 'Learning Management System',
-      description: 'Course management and certification tracking platform with optimized backend performance for seamless user experiences.',
+      description:
+        'Course management and certification tracking platform with optimized backend performance for seamless user experiences.',
       tech: ['PHP', 'CodeIgniter', 'MySQL'],
+      link: '#'
+    },
+    {
+      title: 'Student Learning Platform',
+      description:
+        'Client-focused learning platform where new features were implemented based on requirements while improving application performance and responsiveness.',
+      tech: ['PHP', 'CodeIgniter', 'MySQL', 'Responsive UI'],
       link: '#'
     }
   ],
@@ -128,9 +168,9 @@ const user = {
     }
   ],
   education: {
-    degree: 'Bachelor of Technology (B.Tech) – Computer Science',
+    degree: 'Bachelor of Technology (B.Tech) - Computer Science',
     university: 'DCRUST University',
-    period: '2019 – 2023'
+    period: '2019 - 2023'
   }
 }
 
